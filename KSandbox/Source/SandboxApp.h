@@ -21,7 +21,8 @@ public:
 
 	void Run()
 	{
-		printf("Run sandbox\n");
+		KE_LOG(Info, "Sandbox running");
+
 		KEngine::Application::Run();
 	}
 };

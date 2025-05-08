@@ -17,10 +17,13 @@
     </ClInclude>
     <ClInclude Include="Source\Application\EntryPoint.h" />
     <ClInclude Include="Source\Core\KEngine.h" />
+    <ClInclude Include="Source\Core\Log.h" />
+    <ClInclude Include="Source\Core\LogMacros.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Application\Application.cpp">
       <Filter>Source\Core</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Core\Log.cpp" />
   </ItemGroup>
 </Project>
