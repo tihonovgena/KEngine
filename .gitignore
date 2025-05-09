@@ -1,7 +1,8 @@
 # Directories
-.vs/
 **/Binaries/
 **/Intermediate/
 
-# Files
-*.user
+# Visual Studip
+*.sln
+*.vcxproj*
+.vs/

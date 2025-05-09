@@ -10,7 +10,7 @@ namespace KEngine
 	std::shared_ptr<spdlog::logger> Log::ApplicationLogger;
 
 
-	// TODO do not create application logger, instead create logger for each application and use application names such as Editor, Sandbox etc.
+	// TODO Use application names such as Editor, Sandbox etc.
 	void Log::Init()
 	{
 		spdlog::set_pattern("%^[%T] [%l] %n:  %v%$");
